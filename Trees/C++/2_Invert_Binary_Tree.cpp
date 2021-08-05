@@ -113,7 +113,7 @@ void replace(TreeNode* &left, TreeNode* &right){
        replace(root->left, root->right);
        return root;
     }
- 
+
 // Driver program to test above function
 int main()
 {
